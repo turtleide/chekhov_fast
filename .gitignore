@@ -1,0 +1,22 @@
+# Python 관련
+__pycache__/
+*.pyc
+*.pyo
+
+# 환경 변수 파일 (보안 중요!)
+.env
+
+# Django 관련
+db.sqlite3
+/media
+/staticfiles
+*.log
+
+# Docker 관련
+postgres_data/
+*.pid
+
+# VSCode 설정 파일 (개인 설정이므로 제외)
+.vscode/
+
+venv/
