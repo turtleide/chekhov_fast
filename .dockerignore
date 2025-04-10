@@ -1,0 +1,39 @@
+# Python bytecode 및 캐시
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 가상환경
+venv/
+env/
+
+# Git 관련
+.git/
+.gitignore
+
+# IDE 설정
+.vscode/
+.idea/
+
+# Docker/Compose 관련 설정은 이미지에 포함할 필요 없음
+docker-compose.yml
+docker-compose.*.yml
+Dockerfile
+Dockerfile.*
+.dockerignore
+
+# Alembic 설정 파일 (개발 환경 외에는 필요 없음)
+alembic.ini
+
+# 환경변수 파일 (절대 이미지에 포함 X)
+.env
+
+# README, 문서 등 불필요한 텍스트 파일
+README.md
+*.md
+
+# 기타 프로젝트 루트에 있을 수 있는 데이터 파일
+*.sqlite3
+*.log
+*.db
